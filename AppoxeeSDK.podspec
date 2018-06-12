@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://www.appoxee.com"
   s.license      = { :type => "Custom", :file => "AppoxeeLicence.txt" }
   s.author       = { "Appoxee" => "info@appoxee.com" }
-  s.source       = { :git => "https://github.com/AppoxeeMobile/iosArtifacts.git", :tag => "5.0" }
+  s.source       = { :git => "https://github.com/NeeleshAggarwal86/iOSArtifactsTest.git", :tag => "5.0" }
   s.ios.framework = 'UserNotifications'
   s.platform     = :ios, "8.0"
   s.ios.vendored_frameworks = "SDK/AppoxeeSDK.framework"
