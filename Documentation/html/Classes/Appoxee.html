@@ -1,0 +1,2985 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Appoxee Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">AppoxeeSDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Teradata</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/delegate">delegate</option>
+		
+		<option value="//api/name/dmcAlias">dmcAlias</option>
+		
+		<option value="//api/name/dmcUserID">dmcUserID</option>
+		
+		<option value="//api/name/isReady">isReady</option>
+		
+		<option value="//api/name/logLevel">logLevel</option>
+		
+		<option value="//api/name/postponeNotificationRequest">postponeNotificationRequest</option>
+		
+		<option value="//api/name/showNotificationsOnForeground">showNotificationsOnForeground</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/sdkVersion">+ sdkVersion</option>
+		
+		<option value="//api/name/shared">+ shared</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addTagsToDevice:andRemove:withCompletionHandler:">- addTagsToDevice:andRemove:withCompletionHandler:</option>
+		
+		<option value="//api/name/addTagsToDevice:withCompletionHandler:">- addTagsToDevice:withCompletionHandler:</option>
+		
+		<option value="//api/name/clearAliasCacheWithCompletionHandler:">- clearAliasCacheWithCompletionHandler:</option>
+		
+		<option value="//api/name/clearCustomFieldsCacheWithCompletionHandler:">- clearCustomFieldsCacheWithCompletionHandler:</option>
+		
+		<option value="//api/name/clearTagsCacheWithCompletionhandler:">- clearTagsCacheWithCompletionhandler:</option>
+		
+		<option value="//api/name/deleteRichMessage:withHandler:">- deleteRichMessage:withHandler:</option>
+		
+		<option value="//api/name/deviceInfo">- deviceInfo</option>
+		
+		<option value="//api/name/deviceInformationwithCompletionHandler:">- deviceInformationwithCompletionHandler:</option>
+		
+		<option value="//api/name/didReceiveRemoteNotification:fetchCompletionHandler:andNotifyCompletionWithBlock:">- didReceiveRemoteNotification:fetchCompletionHandler:andNotifyCompletionWithBlock:</option>
+		
+		<option value="//api/name/didRegisterForRemoteNotificationsWithDeviceToken:">- didRegisterForRemoteNotificationsWithDeviceToken:</option>
+		
+		<option value="//api/name/didRegisterUserNotificationSettings:">- didRegisterUserNotificationSettings:</option>
+		
+		<option value="//api/name/disableInbox:withCompletionHandler:">- disableInbox:withCompletionHandler:</option>
+		
+		<option value="//api/name/disablePushNotifications:withCompletionHandler:">- disablePushNotifications:withCompletionHandler:</option>
+		
+		<option value="//api/name/engageAndAutoIntegrateWithLaunchOptions:andDelegate:">- engageAndAutoIntegrateWithLaunchOptions:andDelegate:</option>
+		
+		<option value="//api/name/engageWithLaunchOptions:andDelegate:andSDKID:">- engageWithLaunchOptions:andDelegate:andSDKID:</option>
+		
+		<option value="//api/name/fetchApplicationTags:">- fetchApplicationTags:</option>
+		
+		<option value="//api/name/fetchCustomFieldByKey:withCompletionHandler:">- fetchCustomFieldByKey:withCompletionHandler:</option>
+		
+		<option value="//api/name/fetchDeviceTags:">- fetchDeviceTags:</option>
+		
+		<option value="//api/name/getDeviceAliasWithCompletionHandler:">- getDeviceAliasWithCompletionHandler:</option>
+		
+		<option value="//api/name/getRichMessagesWithHandler:">- getRichMessagesWithHandler:</option>
+		
+		<option value="//api/name/handleActionWithIdentifier:forRemoteNotification:completionHandler:">- handleActionWithIdentifier:forRemoteNotification:completionHandler:</option>
+		
+		<option value="//api/name/incrementNumericKey:byNumericValue:withCompletionHandler:">- incrementNumericKey:byNumericValue:withCompletionHandler:</option>
+		
+		<option value="//api/name/isInboxEnabled:">- isInboxEnabled:</option>
+		
+		<option value="//api/name/isPushEnabled:">- isPushEnabled:</option>
+		
+		<option value="//api/name/performFetchWithCompletionHandler:andNotifyCompletionWithBlock:">- performFetchWithCompletionHandler:andNotifyCompletionWithBlock:</option>
+		
+		<option value="//api/name/receivedRemoteNotification:">- receivedRemoteNotification:</option>
+		
+		<option value="//api/name/refreshInboxWithCompletionHandler:">- refreshInboxWithCompletionHandler:</option>
+		
+		<option value="//api/name/removeDeviceAliasWithCompletionHandler:">- removeDeviceAliasWithCompletionHandler:</option>
+		
+		<option value="//api/name/removeTagsFromDevice:withCompletionHandler:">- removeTagsFromDevice:withCompletionHandler:</option>
+		
+		<option value="//api/name/setDateValue:forKey:withCompletionHandler:">- setDateValue:forKey:withCompletionHandler:</option>
+		
+		<option value="//api/name/setDeviceAlias:withCompletionHandler:">- setDeviceAlias:withCompletionHandler:</option>
+		
+		<option value="//api/name/setNumberValue:forKey:withCompletionHandler:">- setNumberValue:forKey:withCompletionHandler:</option>
+		
+		<option value="//api/name/setStringValue:forKey:withCompletionHandler:">- setStringValue:forKey:withCompletionHandler:</option>
+		
+		<option value="//api/name/userNotificationCenter:didReceiveNotificationResponse:withAppoxeeCompletionHandler:">- userNotificationCenter:didReceiveNotificationResponse:withAppoxeeCompletionHandler:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">Appoxee Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>Appoxee.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/logLevel" title="logLevel"></a>
+	<h3 class="method-title"><code><a href="#//api/name/logLevel">&nbsp;&nbsp;logLevel</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Between 1 - 5, where 1 prints all logs and 5 prints critical logs.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger logLevel</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/postponeNotificationRequest" title="postponeNotificationRequest"></a>
+	<h3 class="method-title"><code><a href="#//api/name/postponeNotificationRequest">&nbsp;&nbsp;postponeNotificationRequest</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set to YES to postpone a request for notifications.
+Setting the property should be performed prior to engaging the SDK.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL postponeNotificationRequest</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/showNotificationsOnForeground" title="showNotificationsOnForeground"></a>
+	<h3 class="method-title"><code><a href="#//api/name/showNotificationsOnForeground">&nbsp;&nbsp;showNotificationsOnForeground</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Indicates if Appoxee should show notifications when application is in foreground, on iOS10 and above.
+Set this property when ever needed, to change this behavior.
+Default value is NO.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL showNotificationsOnForeground</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isReady" title="isReady"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isReady">&nbsp;&nbsp;isReady</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Indicates if the device is registered at Appoxee (but not yet ready for push notifications). You can listen to ‘APX_Ready’ NSNotification to catch this event, or use KVO to get notified when state turns to YES.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL isReady</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The Appoxee notification delegate.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak, nullable) id&lt;AppoxeeNotificationDelegate&gt; delegate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dmcUserID" title="dmcUserID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dmcUserID">&nbsp;&nbsp;dmcUserID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The user&rsquo;s DMC user ID.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable, readonly) NSString *dmcUserID</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/dmcAlias" title="dmcAlias"></a>
+	<h3 class="method-title"><code><a href="#//api/name/dmcAlias">&nbsp;&nbsp;dmcAlias</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The DMC alias.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, strong, nullable, readonly) NSString *dmcAlias</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/shared" title="shared"></a>
+	<h3 class="method-title"><code><a href="#//api/name/shared">+&nbsp;shared</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method for gets a singleton instance of Appoxee.</p>
+
+<pre><code>
+Appoxee *appoxee = [Appoxee shared];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nullable instancetype)shared</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>Appoxee an Instance Type of Appoxee.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sdkVersion" title="sdkVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sdkVersion">+&nbsp;sdkVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method to get the Appoxee SDK version string.</p>
+
+<pre><code>
+NSString *sdkVersoin = [Appoxee sdkVersion];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (nonnull NSString *)sdkVersion</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An NSString Object that represents an Appoxee SDK version.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/engageAndAutoIntegrateWithLaunchOptions:andDelegate:" title="engageAndAutoIntegrateWithLaunchOptions:andDelegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/engageAndAutoIntegrateWithLaunchOptions:andDelegate:">&ndash;&nbsp;engageAndAutoIntegrateWithLaunchOptions:andDelegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Call this method to perform auto integration of your AppDelegate file, and to engage with Appoxee SDK.
+@attention Provide an AppoxeeConfiguration.plist in your application. Method is considered critical, and must be implemented.</p>
+
+<pre><code>
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Method takes into consideration a valid AppoxeeConfig.plist file in your application.
+    [[Appoxee shared] engageAndAutoIntegrateWithLaunchOptions:launchOptions andDelegate:nil];
+    return YES;
+}
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)engageAndAutoIntegrateWithLaunchOptions:(nullable NSDictionary *)<em>launchOptions</em> andDelegate:(nullable id&lt;AppoxeeNotificationDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>launchOptions</code></th>
+						<td><p>NSDictionary which contains the launchOptions of didFinishLaunchingWithOptions AppDelegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p>An object which conforms to <a href="../Protocols/AppoxeeDelegate.html">AppoxeeDelegate</a> Protocol.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/engageWithLaunchOptions:andDelegate:andSDKID:" title="engageWithLaunchOptions:andDelegate:andSDKID:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/engageWithLaunchOptions:andDelegate:andSDKID:">&ndash;&nbsp;engageWithLaunchOptions:andDelegate:andSDKID:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Call this method to engage Appoxee SDK in your application.
+@attention Method is considered critical, and must be implemented.</p>
+
+<pre><code>
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [[Appoxee shared] engageWithLaunchOptions:launchOptions andDelegate:self andSDKID:@"123"];
+    return YES;
+}
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)engageWithLaunchOptions:(nullable NSDictionary *)<em>launchOptions</em> andDelegate:(nullable id&lt;AppoxeeNotificationDelegate&gt;)<em>delegate</em> andSDKID:(nonnull NSString *)<em>sdkID</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>launchOptions</code></th>
+						<td><p>NSDictionary which contains the launchOptions of didFinishLaunchingWithOptions AppDelegate method.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p>An object which conforms to <a href="../Protocols/AppoxeeDelegate.html">AppoxeeDelegate</a> Protocol.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sdkID</code></th>
+						<td><p>NSString representation of the SDK ID.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/didRegisterForRemoteNotificationsWithDeviceToken:" title="didRegisterForRemoteNotificationsWithDeviceToken:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/didRegisterForRemoteNotificationsWithDeviceToken:">&ndash;&nbsp;didRegisterForRemoteNotificationsWithDeviceToken:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Notify Appoxee on a successful registration of APNS.
+@attention method is considered critical and must be implemented. If engageAndAutoIntegrateWithLaunchOptions:andDelegate:andSDKID or <a href="#//api/name/engageAndAutoIntegrateWithLaunchOptions:andDelegate:">engageAndAutoIntegrateWithLaunchOptions:andDelegate:</a> is used, implementation is optional.</p>
+
+<pre><code>
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    [[Appoxee shared] didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+}
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)didRegisterForRemoteNotificationsWithDeviceToken:(nullable NSData *)<em>token</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>token</code></th>
+						<td><p>NSData representation of Apple generated Push Token.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/didRegisterUserNotificationSettings:" title="didRegisterUserNotificationSettings:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/didRegisterUserNotificationSettings:">&ndash;&nbsp;didRegisterUserNotificationSettings:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Appoxee on registration progress.
+@attention method is considered critical and must be implemented. If engageAndAutoIntegrateWithLaunchOptions:andDelegate:andSDKID: or <a href="#//api/name/engageAndAutoIntegrateWithLaunchOptions:andDelegate:">engageAndAutoIntegrateWithLaunchOptions:andDelegate:</a> is used, implementation is optional.</p>
+
+<pre><code>
+- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings
+{
+    [[Appoxee shared] didRegisterUserNotificationSettings:notificationSettings];
+}
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)didRegisterUserNotificationSettings:(nullable NSObject *)<em>notificationSettings</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>notificationSettings</code></th>
+						<td><p>UIUserNotificationSettings instance.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/receivedRemoteNotification:" title="receivedRemoteNotification:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/receivedRemoteNotification:">&ndash;&nbsp;receivedRemoteNotification:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Use this method to pass information to Appoxee Manager regarding incoming push notifications.
+@attention method is considered critical and must be implemented. If engageAndAutoIntegrateWithLaunchOptions:andDelegate:andSDKID: or <a href="#//api/name/engageAndAutoIntegrateWithLaunchOptions:andDelegate:">engageAndAutoIntegrateWithLaunchOptions:andDelegate:</a> is used, implementation is optional.</p>
+
+<pre><code>
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+    [[Appoxee shared] receivedRemoteNotification:userInfo];
+}
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)receivedRemoteNotification:(nullable NSDictionary *)<em>userInfo</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userInfo</code></th>
+						<td><p>NSDictionary object containing user info with Push payload.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/handleActionWithIdentifier:forRemoteNotification:completionHandler:" title="handleActionWithIdentifier:forRemoteNotification:completionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/handleActionWithIdentifier:forRemoteNotification:completionHandler:">&ndash;&nbsp;handleActionWithIdentifier:forRemoteNotification:completionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Implementation of this method enables ‘Push Actions’. Forward this call to Appoxee directly and call completionHandler(); if the returned value is NO, since Appoxee will not handle a complete custom action provided by the developer.
+@attention If engageAndAutoIntegrateWithLaunchOptions:andDelegate:andSDKID: or <a href="#//api/name/engageAndAutoIntegrateWithLaunchOptions:andDelegate:">engageAndAutoIntegrateWithLaunchOptions:andDelegate:</a> is used, implementation is optional.</p>
+
+<pre><code>
+- (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(NSDictionary *)userInfo completionHandler:(void (^)())completionHandler
+{
+    [[Appoxee shared] handleActionWithIdentifier:identifier forRemoteNotification:userInfo completionHandler:completionHandler];
+}
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (BOOL)handleActionWithIdentifier:(nullable NSString *)<em>identifier</em> forRemoteNotification:(nullable NSDictionary *)<em>userInfo</em> completionHandler:(nonnull void ( ^ ) ( ))<em>completionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>identifier</code></th>
+						<td><p>The identifier argument passed by the application <a href="#//api/name/delegate">delegate</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userInfo</code></th>
+						<td><p>The userInfo argument passed by the application <a href="#//api/name/delegate">delegate</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The completionHandler argument passed by the application <a href="#//api/name/delegate">delegate</a>.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>YES, if Appoxee handled the action, else returns NO. If the returned value is NO, you will need to call completionHandler(); after you finish handling the Push action.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/didReceiveRemoteNotification:fetchCompletionHandler:andNotifyCompletionWithBlock:" title="didReceiveRemoteNotification:fetchCompletionHandler:andNotifyCompletionWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/didReceiveRemoteNotification:fetchCompletionHandler:andNotifyCompletionWithBlock:">&ndash;&nbsp;didReceiveRemoteNotification:fetchCompletionHandler:andNotifyCompletionWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Implementation of this method enables Appoxee to fetch new data, or update a geo location, while in background. If completionHandler is nil, Appoxee assumes the developer also has work to perform, and by this Appoxee will NOT call the completionHandler, but it will provide a UIBackgroundFetchResult as an NSNumber argument in the AppoxeeCompletionHandler block. Application’s plist must contain a ‘remote-notification’ value in ‘UIBackgroundModes’.
+@attention If engageAndAutoIntegrateWithLaunchOptions:andDelegate:andSDKID: or engageAndAutoIntegrateWithLaunchOptions:andDelegate: is used, implementation is optional.</p>
+
+<pre><code>
+// 1.
+// Handling a silent push which did not originate at Appoxee.
+- (void)application:(UIApplication )application didReceiveRemoteNotification:(NSDictionary )userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    // passing completionHandler for the completionHandler argument, so that Appoxee calls it when Appoxee is done. 
+    [[Appoxee shared] didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler andNotifyCompletionWithBlock:^(NSError * Nullable appoxeeError, id Nullable data) {
+    
+        if (appoxeeError) {
+
+             // This means that the silent push did not originate from Appoxee. The data param will contain a UIBackgroundFetchResultFailed as an NSNumber.
+             // Appoxee will not perform any action, and it is the developer's responsibility to call the completionHandler();.
+            completionHandler(UIBackgroundFetchResultFailed); // provide an UIBackgroundFetchResult by your own app-specific logic.
+
+        } else {
+
+            // No need to pefrom any action, since Appoxee will call completionHandler() providing it a UIBackgroundFetchResult.
+
+        }
+    }];
+}
+// 2.
+// Handling the completion handler by the developer
+- (void)application:(UIApplication )application didReceiveRemoteNotification:(NSDictionary )userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    // passing nil for the completionHandler argument, so that the developer can also perform it’s work. 
+    [[Appoxee shared] didReceiveRemoteNotification:userInfo fetchCompletionHandler:nil andNotifyCompletionWithBlock:^(NSError * Nullable appoxeeError, id Nullable data) {
+
+        if (appoxeeError) {
+
+             // This means that the silent push did not originate from Appoxee. The data param will contain a UIBackgroundFetchResultFailed as an NSNumber.
+             // Appoxee will not perform any action, and it is the developer's responsibility to call the completionHandler();.
+
+             // add Developer operations logic, and call:
+             completionHandler(UIBackgroundFetchResultNewData); // provide an UIBackgroundFetchResult by your own app-specific logic.
+
+         } else {
+
+             // add Developer operations logic, and call:
+             completionHandler(UIBackgroundFetchResultNewData); // provide an UIBackgroundFetchResult by your own app-specific logic.
+         }
+     }];
+}
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)didReceiveRemoteNotification:(nullable NSDictionary *)<em>userInfo</em> fetchCompletionHandler:(nullable void ( ^ ) ( UIBackgroundFetchResult ))<em>completionHandler</em> andNotifyCompletionWithBlock:(nullable AppoxeeCompletionHandler)<em>completionBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>userInfo</code></th>
+						<td><p>NSDictionary object containing user info with Push payload.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionHandler</code></th>
+						<td><p>The OS completion handler block. Must be called (by Appoxee / by developer) when work is completed. if param is nil, the developer will need to call it on he&rsquo;s own. If provided, Appoxee will call it when it completes its work, unless the silent-push did not originate at Appoxee. It is advised to wait for the completionBlock parameters, and act according to their data.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionBlock</code></th>
+						<td><p>A completion block which will be called when Appoxee completes it&rsquo;s work, enabling the developer to call completionHandler, in case fetchHandler is nil.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/performFetchWithCompletionHandler:andNotifyCompletionWithBlock:" title="performFetchWithCompletionHandler:andNotifyCompletionWithBlock:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/performFetchWithCompletionHandler:andNotifyCompletionWithBlock:">&ndash;&nbsp;performFetchWithCompletionHandler:andNotifyCompletionWithBlock:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Implementation of this method enables Appoxee to fetch new data, or update a geo location, while in background. If fetchHandler is nil, Appoxee assumes the developer also has work to perform, and by this Appoxee will NOT call the fetchHandler, but it will provide a UIBackgroundFetchResult as an NSNumber argument in the <a href="../Blocks/AppoxeeCompletionHandler.html">AppoxeeCompletionHandler</a> block. Application’s plist must contain a ‘fetch’ value in ‘UIBackgroundModes’.
+@attention If engageAndAutoIntegrateWithLaunchOptions:andDelegate:andSDKID: or <a href="#//api/name/engageAndAutoIntegrateWithLaunchOptions:andDelegate:">engageAndAutoIntegrateWithLaunchOptions:andDelegate:</a> is used, implementation is optional.</p>
+
+<pre><code>
+// 1.
+// In case the developer needs to perform work.
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+
+    [[Appoxee shared] performFetchWithCompletionHandler:nil andNotifyCompletionWithBlock:^(NSError * Nullable appoxeeError, id Nullable data) {
+
+        if ([data isKindOfClass:[NSNumber class]]) {
+
+            // Fetch the background resualt provided by Appoxee, notifying if Appoxee did fetch new data, or did not.
+            NSNumber *backgroundFetchResult = (NSNumber *)data;
+
+            // Call the completion handler, when you finish your work.
+            completionHandler([backgroundFetchResult integerValue]);
+        }
+    }];
+}
+// 2.
+// In case the developer does not need to perform work.
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    // Appoxee will call completionHandler(); with a UIBackgroundFetchResult when it will finish it’s work.
+    [[Appoxee shared] performFetchWithCompletionHandler:completionHandler andNotifyCompletionWithBlock:nil];
+}
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)performFetchWithCompletionHandler:(nullable void ( ^ ) ( UIBackgroundFetchResult ))<em>fetchHandler</em> andNotifyCompletionWithBlock:(nullable AppoxeeCompletionHandler)<em>completionBlock</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>fetchHandler</code></th>
+						<td><p>The OS fetch handler block. must be called (by Appoxee / by developer) when work is completed. if nil, the developer will need to call it, while waiting for Appoxee&rsquo;s completionBlock. If provided, then Appoxee will call the fetchHandler when done.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completionBlock</code></th>
+						<td><p>A completion block which will be called when Appoxee completes it&rsquo;s work, enabling the developer to be notified, in case fetchHandler is nil, and to call the fetchHandler.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/userNotificationCenter:didReceiveNotificationResponse:withAppoxeeCompletionHandler:" title="userNotificationCenter:didReceiveNotificationResponse:withAppoxeeCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/userNotificationCenter:didReceiveNotificationResponse:withAppoxeeCompletionHandler:">&ndash;&nbsp;userNotificationCenter:didReceiveNotificationResponse:withAppoxeeCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Forward UNNotificationResponse to Appoxee.
+@attention Method is required only if you intend to act as the UNUserNotificationCenterDelegate.</p>
+
+<pre><code>
+#pragma mark - UNUserNotificationCenterDelegate
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void(^)())completionHandler
+{
+    [[Appoxee shared] userNotificationCenter:center didReceiveNotificationResponse:response withAppoxeeCompletionHandler:^{
+
+        // Appoxee completed it's work. 
+        completionHandler();
+    }];
+}
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)userNotificationCenter:(nonnull UNUserNotificationCenter *)<em>center</em> didReceiveNotificationResponse:(nonnull UNNotificationResponse *)<em>response</em> withAppoxeeCompletionHandler:(nullable void ( ^ ) ( ))<em>appoxeeCompletionHandler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>center</code></th>
+						<td><p>The notification center that received the notification.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>response</code></th>
+						<td><p>The user’s response to the notification. This object contains the original notification and the identifier string for the selected action. If the action allowed the user to provide a textual response, this object is an instance of the UNTextInputNotificationResponse class.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>appoxeeCompletionHandler</code></th>
+						<td><p>The block to execute when Appoxee finished processing the notification. The block has no return value or parameters.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/disablePushNotifications:withCompletionHandler:" title="disablePushNotifications:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/disablePushNotifications:withCompletionHandler:">&ndash;&nbsp;disablePushNotifications:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method will disable or re-enable Push Notification per device at Appoxee Dashboard.
+@attention Method does not un-register from push notifications, but rather, it opts-out the device from Push Services at Appoxee Dashboard.</p>
+
+<pre><code>
+[[Appoxee shared] disablePushNotifications:booleanArgument withCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        // operation was successful.
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)disablePushNotifications:(BOOL)<em>isDisabled</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>isDisabled</code></th>
+						<td><p>BOOL value indacating if should enable or disable push.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isPushEnabled:" title="isPushEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isPushEnabled:">&ndash;&nbsp;isPushEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method to get the state value of the push status from Appoxee Dashboard.
+@attention Method indicates if a device is push-enabled at Appoxee dashboard, and not if a device is registered for APNS.</p>
+
+<pre><code>
+[[Appoxee shared] isPushEnabled:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        BOOL state = [(NSNumber *)data boolValue];
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)isPushEnabled:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/disableInbox:withCompletionHandler:" title="disableInbox:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/disableInbox:withCompletionHandler:">&ndash;&nbsp;disableInbox:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method disables or re-enables Inbox.
+@attention Standalone Feature. Method does not un-register sound from push notifications, but opts-out the device sound from Push Services at Appoxee dashboard.</p>
+
+<pre><code>
+[[Appoxee shared] disableInbox:booleanArgument completionHwithCompletionHandlerandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        // operation was successful.
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)disableInbox:(BOOL)<em>isDisabled</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>isDisabled</code></th>
+						<td><p>BOOL value indacating if should enable or disable sound.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/isInboxEnabled:" title="isInboxEnabled:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isInboxEnabled:">&ndash;&nbsp;isInboxEnabled:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method to get the current state of Inbox.
+@attention Standalone Feature. Method fetches opt-out status of the device inbox from Push Services at Appoxee dashboard.</p>
+
+<pre><code>
+[[Appoxee shared] isInboxEnabled:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        BOOL state = [(NSNumber *)data boolValue];
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)isInboxEnabled:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setDeviceAlias:withCompletionHandler:" title="setDeviceAlias:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setDeviceAlias:withCompletionHandler:">&ndash;&nbsp;setDeviceAlias:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method sets an alias to identify a device.</p>
+
+<pre><code>
+[[Appoxee shared] setDeviceAlias:@"Alias" withCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        // Alias was set.
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setDeviceAlias:(nullable NSString *)<em>alias</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>alias</code></th>
+						<td><p>An NSString object representing an alias.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeDeviceAliasWithCompletionHandler:" title="removeDeviceAliasWithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeDeviceAliasWithCompletionHandler:">&ndash;&nbsp;removeDeviceAliasWithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method removes an alias from a device.</p>
+
+<pre><code>
+[[Appoxee shared] removeDeviceAliasWithCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        // Alias was removed.
+    }
+}];
+</code></pre>
+
+
+<p>An NSString object representing an alias.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeDeviceAliasWithCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getDeviceAliasWithCompletionHandler:" title="getDeviceAliasWithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getDeviceAliasWithCompletionHandler:">&ndash;&nbsp;getDeviceAliasWithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method gets the alias for a device.</p>
+
+<pre><code>
+[[Appoxee shared] getDeviceAliasWithCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError && [data isKindOfClass:[NSString class]]) {
+
+        NSString *deviceAlias = (NSString *)data;
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getDeviceAliasWithCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearAliasCacheWithCompletionHandler:" title="clearAliasCacheWithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearAliasCacheWithCompletionHandler:">&ndash;&nbsp;clearAliasCacheWithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method clears cached value of an alias.</p>
+
+<pre><code>
+[[Appoxee shared] clearAliasCacheWithCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        // Alias cache was cleared.
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)clearAliasCacheWithCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchDeviceTags:" title="fetchDeviceTags:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchDeviceTags:">&ndash;&nbsp;fetchDeviceTags:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method gets the device tags from the Appoxee servers.
+@attention Standalone Feature.</p>
+
+<pre><code>
+[[Appoxee shared] fetchDeviceTags:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError && [data isKindOfClass:[NSArray class]]) {
+
+        NSArray *deviceTags = (NSArray *)data;
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchDeviceTags:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchApplicationTags:" title="fetchApplicationTags:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchApplicationTags:">&ndash;&nbsp;fetchApplicationTags:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method gets the appilcation tags from the Appoxee servers.
+@attention Standalone Feature.</p>
+
+<pre><code>
+[[Appoxee shared] fetchApplicationTags:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError && [data isKindOfClass:[NSArray class]]) {
+
+        NSArray *applicationTags = (NSArray *)data;
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchApplicationTags:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addTagsToDevice:withCompletionHandler:" title="addTagsToDevice:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addTagsToDevice:withCompletionHandler:">&ndash;&nbsp;addTagsToDevice:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method adds tags to a device. Method may return in the callback an error with APX_DataService domain value. This means that the operation was successfully completed, but with errors. The errors indicate if the operation triggered a server update. Operations such as adding an existing device tag, or passing an empty array, will trigger such APX_DataService errors. Any other error with a different domain indicates an unsuccessful operation.
+@attention Standalone Feature.</p>
+
+<pre><code>
+[[Appoxee shared] addTagsToDevice:@[@"firstTag", @"secondTag"] withCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (appoxeeError) {
+
+        // check the error domain
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addTagsToDevice:(nullable NSArray&lt;NSString*&gt; *)<em>tagsToAdd</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tagsToAdd</code></th>
+						<td><p>NSArray containing a list of NSString tags.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeTagsFromDevice:withCompletionHandler:" title="removeTagsFromDevice:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeTagsFromDevice:withCompletionHandler:">&ndash;&nbsp;removeTagsFromDevice:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method removes tags from a device. Method may return in the callback an error with APX_DataService domain value. This means that the operation was successfully completed, but with errors. The errors indicate if the operation triggered a server update. Operations such as adding an existing device tag, or passing an empty array, will trigger such APX_DataService errors. Any other error with a different domain indicates an unsuccessful operation.
+@attention Standalone Feature.</p>
+
+<pre><code>
+[[Appoxee shared] removeTagsFromDevice:@[@"firstTag", @"secondTag"] withCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (appoxeeError) {
+
+        // check the error domain
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeTagsFromDevice:(nullable NSArray&lt;NSString*&gt; *)<em>tagsToRemove</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tagsToRemove</code></th>
+						<td><p>NSArray containing a list of NSString tags.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addTagsToDevice:andRemove:withCompletionHandler:" title="addTagsToDevice:andRemove:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addTagsToDevice:andRemove:withCompletionHandler:">&ndash;&nbsp;addTagsToDevice:andRemove:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method adds tags to a device and removes tags from a device. Method may return in the callback an error with APX_DataService domain value. This means that the operation was successfully completed, but with errors. The errors indicate if the operation triggered a server update. Operations such as adding an existing device tag, or passing an empty array, will trigger such APX_DataService errors. Any other error with a different domain indicates an unsuccessful operation.
+@attention Standalone Feature.</p>
+
+<pre><code>
+[[Appoxee shared] addTagsToDevice:@[@"firstTag", @"secondTag"] andRemove:@[@"thirdTag", @"fourthTag"]  withCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (appoxeeError) {
+
+        // check the error domain
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)addTagsToDevice:(nullable NSArray&lt;NSString*&gt; *)<em>tagsToAdd</em> andRemove:(nullable NSArray&lt;NSString*&gt; *)<em>tagsToRemove</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tagsToAdd</code></th>
+						<td><p>NSArray containing a list of NSString tags.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tagsToRemove</code></th>
+						<td><p>NSArray containing a list of NSString tags.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearTagsCacheWithCompletionhandler:" title="clearTagsCacheWithCompletionhandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearTagsCacheWithCompletionhandler:">&ndash;&nbsp;clearTagsCacheWithCompletionhandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method will clear the device tags cache.
+@attention Standalone Feature.</p>
+
+<pre><code>
+[[Appoxee shared] clearTagsCacheWithCompletionhandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        // operation is successful
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)clearTagsCacheWithCompletionhandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setDateValue:forKey:withCompletionHandler:" title="setDateValue:forKey:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setDateValue:forKey:withCompletionHandler:">&ndash;&nbsp;setDateValue:forKey:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method sets a custom value of NDSate to Appoxee Servers.</p>
+
+<pre><code>
+[[Appoxee shared] setDateValue:[NSDate date] forKey:@"key" withCompletionHandler:^(NSError * _Nullable appoxeeError, id  _Nullable data) {
+
+    if (!appoxeeError) {
+
+        // Operation was successful.
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setDateValue:(nonnull NSDate *)<em>date</em> forKey:(nonnull NSString *)<em>key</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>date</code></th>
+						<td><p>an NSDate instance representing a date.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>an NSString instance representing a key.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setNumberValue:forKey:withCompletionHandler:" title="setNumberValue:forKey:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setNumberValue:forKey:withCompletionHandler:">&ndash;&nbsp;setNumberValue:forKey:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method sets a custom value of NSNumber to Appoxee Servers.</p>
+
+<pre><code>
+[[Appoxee shared] setNumberValue:@(1.01) forKey:@"key" withCompletionHandler:^(NSError * _Nullable appoxeeError, id  _Nullable data) {
+
+    if (!appoxeeError) {
+
+        // Operation was successful.
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setNumberValue:(nonnull NSNumber *)<em>number</em> forKey:(nonnull NSString *)<em>key</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>number</code></th>
+						<td><p>an NSNumber instance representing a number.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>an NSString instance representing a key.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/incrementNumericKey:byNumericValue:withCompletionHandler:" title="incrementNumericKey:byNumericValue:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/incrementNumericKey:byNumericValue:withCompletionHandler:">&ndash;&nbsp;incrementNumericKey:byNumericValue:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method increments a custom value of NSNumber to Appoxee Servers. Value is added to an existing key, or else a new entry is created.
+@attantion If key doesn&rsquo;t exist, a new key and value will be set.</p>
+
+<pre><code>
+[[Appoxee shared] incrementNumericKey:@"key" byNumericValue:@(1.6) withCompletionHandler:^(NSError * _Nullable appoxeeError, id  _Nullable data) {
+
+    if (!appoxeeError) {
+
+        // Operation was successful.
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)incrementNumericKey:(nonnull NSString *)<em>key</em> byNumericValue:(nonnull NSNumber *)<em>number</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>an NSString instance representing a key.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>number</code></th>
+						<td><p>an NSNumber instance representing a number.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setStringValue:forKey:withCompletionHandler:" title="setStringValue:forKey:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setStringValue:forKey:withCompletionHandler:">&ndash;&nbsp;setStringValue:forKey:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method sets a custom value of NSString to Appoxee Servers.</p>
+
+<pre><code>
+[[Appoxee shared] setStringValue:@"string" forKey:@"key" withCompletionHandler:^(NSError * _Nullable appoxeeError, id  _Nullable data) {
+
+    if (!appoxeeError) {
+
+        // Operation was successful.
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setStringValue:(nonnull NSString *)<em>string</em> forKey:(nonnull NSString *)<em>key</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>string</code></th>
+						<td><p>NSString instance representing a string.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>an NSString instance representing a key.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/fetchCustomFieldByKey:withCompletionHandler:" title="fetchCustomFieldByKey:withCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/fetchCustomFieldByKey:withCompletionHandler:">&ndash;&nbsp;fetchCustomFieldByKey:withCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method gets a key-value pair stored on the device.</p>
+
+<pre><code>
+[[Appoxee shared] fetchCustomFieldByKey:@"CustomFieldKey" withCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError && [data isKindOfClass:[NSDictionary class]]) {
+
+        NSDictionary *dictionary = (NSDictionary *)data;
+        NSString *key = [[dictionary allKeys] firstObject];
+        id value = dictionary[key]; // can be of the following types: NSString || NSNumber || NSDate
+    }
+
+    // If there wan't an error, and data object is nil, then value doesn't exist on the device.
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)fetchCustomFieldByKey:(nullable NSString *)<em>key</em> withCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>key</code></th>
+						<td><p>NSString with the key of a previously saved key-value pair.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/clearCustomFieldsCacheWithCompletionHandler:" title="clearCustomFieldsCacheWithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/clearCustomFieldsCacheWithCompletionHandler:">&ndash;&nbsp;clearCustomFieldsCacheWithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method clears cached value of custom fields.</p>
+
+<pre><code>
+[[Appoxee shared] clearCustomFieldsCacheWithCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        // custom fields cache was cleared.
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)clearCustomFieldsCacheWithCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deviceInfo" title="deviceInfo"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deviceInfo">&ndash;&nbsp;deviceInfo</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method gets information on the current iDevice.</p>
+
+<pre><code>
+    // Note that calling this method prior to device registration will provide basic information regarding this device.
+    // Developers should prefare using deviceInformationwithCompletionHandler:
+    APXClientDevice *device = [[Appoxee shared] deviceInfo];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nonnull APXClientDevice *)deviceInfo</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p><a href="../Classes/APXClientDevice.html">APXClientDevice</a> an instance that describes this device.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deviceInformationwithCompletionHandler:" title="deviceInformationwithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deviceInformationwithCompletionHandler:">&ndash;&nbsp;deviceInformationwithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method gets information on the current iDevice.</p>
+
+<pre><code>
+[[Appoxee shared] deviceInformationwithCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError && [data isKindOfClass:[APXClientDevice class]]) {
+
+        APXClientDevice *device = (APXClientDevice *)data;
+    }
+  }];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deviceInformationwithCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getRichMessagesWithHandler:" title="getRichMessagesWithHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getRichMessagesWithHandler:">&ndash;&nbsp;getRichMessagesWithHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method for getting all of the Rich messages associated with a device.
+@attention Standalone Feature.</p>
+
+<pre><code>
+[[Appoxee shared] getRichMessagesWithHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        NSArray *messages = (NSArray *)data; // all objects in array are of type APXRichMessage
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getRichMessagesWithHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/deleteRichMessage:withHandler:" title="deleteRichMessage:withHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/deleteRichMessage:withHandler:">&ndash;&nbsp;deleteRichMessage:withHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method that deletes a Rich Message from Inbox.
+@attention Standalone Feature.</p>
+
+<p><pre><code>
+[[Appoxee shared] deleteRichMessage:richMessage withHandler:^(NSError *appoxeeError, id data) {</p>
+
+<pre><code>if (!appoxeeError) {
+
+    // refresh UI
+}
+</code></pre>
+
+<p>}];</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)deleteRichMessage:(nullable APXRichMessage *)<em>richMessage</em> withHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/refreshInboxWithCompletionHandler:" title="refreshInboxWithCompletionHandler:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/refreshInboxWithCompletionHandler:">&ndash;&nbsp;refreshInboxWithCompletionHandler:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Method refreshes Inbox Rich Messages while synching data with Appoxee Servers.
+@attention Standalone Feature.</p>
+
+<pre><code>
+[[Appoxee shared] refreshInboxWithCompletionHandler:^(NSError *appoxeeError, id data) {
+
+    if (!appoxeeError) {
+
+        NSArray *messages = (NSArray *)data; // all objects in array are of type APXRichMessage
+    }
+}];
+</code></pre>
+
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)refreshInboxWithCompletionHandler:(nullable AppoxeeCompletionHandler)<em>handler</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>handler</code></th>
+						<td><p>Code Block to be executed when method completes with an NSError object and data as arguments.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">Appoxee.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2016 Teradata. All rights reserved. Updated: 2016-10-02</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
